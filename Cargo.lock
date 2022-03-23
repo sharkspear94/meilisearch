@@ -1033,6 +1033,7 @@ dependencies = [
 [[package]]
 name = "filter-parser"
 version = "0.1.0"
+source = "git+https://github.com/meilisearch/milli.git?tag=v0.24.0#5863afa1a568950de2928ba2d78b95aee243dad1"
 dependencies = [
  "nom",
  "nom_locate",
@@ -1041,7 +1042,7 @@ dependencies = [
 [[package]]
 name = "filter-parser"
 version = "0.1.0"
-source = "git+https://github.com/meilisearch/milli.git?tag=v0.24.0#5863afa1a568950de2928ba2d78b95aee243dad1"
+source = "git+https://github.com/meilisearch/milli.git?branch=nested_fields#592ef3de4668774b229e676b65465969e3521cad"
 dependencies = [
  "nom",
  "nom_locate",
@@ -1994,7 +1995,7 @@ dependencies = [
  "log",
  "meilisearch-auth",
  "meilisearch-error",
- "milli 0.23.1",
+ "milli 0.23.1 (git+https://github.com/meilisearch/milli.git?branch=nested_fields)",
  "mime",
  "mockall",
  "nelson",
@@ -2070,6 +2071,7 @@ dependencies = [
 [[package]]
 name = "milli"
 version = "0.23.1"
+source = "git+https://github.com/meilisearch/milli.git?tag=v0.24.0#5863afa1a568950de2928ba2d78b95aee243dad1"
 dependencies = [
  "bimap",
  "bincode",
@@ -2079,8 +2081,7 @@ dependencies = [
  "crossbeam-channel",
  "csv",
  "either",
- "filter-parser 0.1.0",
- "flatten-serde-json",
+ "filter-parser 0.1.0 (git+https://github.com/meilisearch/milli.git?tag=v0.24.0)",
  "fst",
  "fxhash",
  "geoutils",
@@ -2111,7 +2112,7 @@ dependencies = [
 [[package]]
 name = "milli"
 version = "0.23.1"
-source = "git+https://github.com/meilisearch/milli.git?tag=v0.24.0#5863afa1a568950de2928ba2d78b95aee243dad1"
+source = "git+https://github.com/meilisearch/milli.git?branch=nested_fields#592ef3de4668774b229e676b65465969e3521cad"
 dependencies = [
  "bimap",
  "bincode",
@@ -2121,7 +2122,8 @@ dependencies = [
  "crossbeam-channel",
  "csv",
  "either",
- "filter-parser 0.1.0 (git+https://github.com/meilisearch/milli.git?tag=v0.24.0)",
+ "filter-parser 0.1.0 (git+https://github.com/meilisearch/milli.git?branch=nested_fields)",
+ "flatten-serde-json",
  "fst",
  "fxhash",
  "geoutils",

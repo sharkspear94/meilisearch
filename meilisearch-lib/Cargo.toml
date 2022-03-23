@@ -31,7 +31,8 @@ log = "0.4.14"
 meilisearch-auth = { path = "../meilisearch-auth" }
 meilisearch-error = { path = "../meilisearch-error" }
 # milli = { git = "https://github.com/meilisearch/milli.git", tag = "v0.24.0" }
-milli = { path = "../../milli/milli" }
+# milli = { path = "../../milli/milli" }
+milli = { git = "https://github.com/meilisearch/milli.git", branch = "nested_fields" }
 mime = "0.3.16"
 num_cpus = "1.13.1"
 obkv = "0.2.0"
